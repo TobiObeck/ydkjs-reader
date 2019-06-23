@@ -52,40 +52,60 @@
       marketers serve unmatched cross-phase personalized experiences at every
       step of the FirstSpriti Digital Experience Platform. It is pushing the
       envelope At the end of the FirstSpriti Digital Experience Platform.
-      Helping marketers serve unmatched cross-phase personalized experiences at
-      every step of the FirstSpriti Digital Experience Platform. It is pushing
-      the envelope At the end of the customer journey. Helping marketers serve
-      unmatched cross-phase personalized experiences at every step of the
     </p>
 
     <div class="flex flex-wrap justify-center my-6">
 
       <div class=" md:w-1/2 lg:w-1/3 p-2">
-        <section class="bg-gray-100 rounded-lg shadow-md p-4">
-          <h4 class="text-xl mb-2">Card Heading</h4>
-          These innovations help CMOs challenged with the delivery of
-          omnichannel digital experiences for some of the FirstSpriti Digital
-          Experience Platform powers enterprise-class. These innovations help
-          CMOs challenged with the delivery of omnichannel digital experiences
-          for some of the Experience Platform powers enterprise-class. These
-          innovations help CMOs challenged with the delivery of omnichannel
-          digital experiences for some of the
+        <section
+          class="px-4 py-3 bg-gray-100 rounded-lg shadow-md hover:scale-sm
+          hover:shadow-lg trans-ease-out trans-100 trans">
+          <h4 class="text-xl mb-1">Card Heading</h4>
+          <p>
+            These innovations help CMOs challenged with the delivery of
+            omnichannel digital experiences for some of the FirstSpriti Digital
+            Experience Platform powers enterprise-class. These innovations help
+            CMOs challenged with the delivery of omnichannel digital experiences
+            for some of the Experience Platform powers enterprise-class. These
+            innovations help CMOs challenged with the delivery of omnichannel
+            digital experiences for some of the
+          </p>
         </section>
       </div>
 
       <div class="p-2 md:w-1/2 lg:w-1/3 ">
-        <section class="bg-gray-100 rounded-lg shadow-md p-4">
-          <h4 class="text-xl mb-2">Card Heading</h4>
-          It is pushing the envelope At the end of the FirstSpriti Digital
-          Spriti introduced new capabilities to the awards page of the customer
-          journey. Clicking on this link which refers to B2B Marketing awards
-          enterprise-class.
+        <section
+          class="px-4 py-3 bg-gray-100 rounded-lg shadow-md hover:scale-sm
+          hover:shadow-lg trans-ease-out trans-100 trans">
+          <h4 class="text-xl mb-1">Card Heading</h4>
+          <p>
+            It is pushing the envelope At the end of the FirstSpriti Digital
+            Spriti introduced new capabilities to the awards page of the
+            customer journey. Clicking on this link which refers to B2B
+            Marketing awards enterprise-class.
+          </p>
         </section>
       </div>
 
       <div class=" md:w-1/2 lg:w-1/3 p-2">
-        <section class="bg-gray-100 rounded-lg shadow-md p-4">
-          <h4 class="text-xl mb-2">Card Heading</h4>
+        <section
+          class="px-4 py-3 bg-gray-100 rounded-lg shadow-md hover:scale-sm
+          hover:shadow-lg trans-ease-out trans-100 trans">
+          <h4 class="text-xl mb-1">Card Heading</h4>
+          <p>
+            It is pushing the envelope At the end of the FirstSpriti Digital
+            Spriti introduced new capabilities to the awards page of the
+            customer journey. Clicking on this link which refers to B2B
+            Marketing awards enterprise-class.
+          </p>
+        </section>
+      </div>
+
+      <div class="flex-auto md:w-1/2 lg:w-1/3 p-2 ">
+        <section
+          class="px-4 py-3 bg-gray-100 rounded-lg shadow-md hover:scale-sm
+          hover:shadow-lg trans-ease-out trans-100 trans">
+          <h4 class="text-xl mb-1">Card Heading</h4>
           It is pushing the envelope At the end of the FirstSpriti Digital
           Spriti introduced new capabilities to the awards page of the customer
           journey. Clicking on this link which refers to B2B Marketing awards
@@ -94,8 +114,10 @@
       </div>
 
       <div class="flex-auto md:w-1/2 lg:w-1/3 p-2 ">
-        <section class="bg-gray-100 rounded-lg shadow-md p-4">
-          <h4 class="text-xl mb-2">Card Heading</h4>
+        <section
+          class="px-4 py-3 bg-gray-100 rounded-lg shadow-md hover:scale-sm
+          hover:shadow-lg trans-ease-out trans-100 trans">
+          <h4 class="text-xl mb-1">Card Heading</h4>
           It is pushing the envelope At the end of the FirstSpriti Digital
           Spriti introduced new capabilities to the awards page of the customer
           journey. Clicking on this link which refers to B2B Marketing awards
@@ -104,18 +126,10 @@
       </div>
 
       <div class="flex-auto md:w-1/2 lg:w-1/3 p-2 ">
-        <section class="bg-gray-100 rounded-lg shadow-md p-4">
-          <h4 class="text-xl mb-2">Card Heading</h4>
-          It is pushing the envelope At the end of the FirstSpriti Digital
-          Spriti introduced new capabilities to the awards page of the customer
-          journey. Clicking on this link which refers to B2B Marketing awards
-          enterprise-class.
-        </section>
-      </div>
-
-      <div class="flex-auto md:w-1/2 lg:w-1/3 p-2 ">
-        <section class="bg-gray-100 rounded-lg shadow-md p-4">
-          <h4 class="text-xl mb-2">Card Heading</h4>
+        <section
+          class="px-4 py-3 bg-gray-100 rounded-lg shadow-md hover:scale-sm
+          hover:shadow-lg trans-ease-out trans-100 trans">
+          <h4 class="text-xl mb-1">Card Heading</h4>
           It is pushing the envelope At the end of the FirstSpriti Digital
           Spriti introduced new capabilities to the awards page of the customer
           journey. Clicking on
@@ -123,15 +137,19 @@
       </div>
 
       <div class="flex-auto md:w-1/2 lg:w-1/3 p-2 ">
-        <section class="bg-gray-100 rounded-lg shadow-md p-4">
-          <h4 class="text-xl mb-2">Card Heading</h4>
+        <section
+          class="px-4 py-3 bg-gray-100 rounded-lg shadow-md hover:scale-sm
+          hover:shadow-lg trans-ease-out trans-100 trans">
+          <h4 class="text-xl mb-1">Card Heading</h4>
           It is pushing the envelope At the end of the FirstSpriti Digital
         </section>
       </div>
 
       <div class="flex-auto md:w-1/2 lg:w-1/3 p-2 ">
-        <section class="bg-gray-100 rounded-lg shadow-md p-4">
-          <h4 class="text-xl mb-2">Card Heading</h4>
+        <section
+          class="px-4 py-3 bg-gray-100 rounded-lg shadow-md hover:scale-sm
+          hover:shadow-lg trans-ease-out trans-100 trans">
+          <h4 class="text-xl mb-1">Card Heading</h4>
           It is pushing the envelope At the end of the FirstSpriti Digital
           Spriti introduced new capabilities to the awards page of the customer
         </section>

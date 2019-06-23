@@ -1,0 +1,63 @@
+.hover\:scale-sm:hover {
+    transform: scale(1.02);
+}
+
+.trans {
+    transition: all .1s;
+}
+
+.trans-ease-out {
+    transition-timing-function: ease-out;
+}
+
+.trans-bg {
+    transition-property: background-color;
+}
+
+.trans-transform {
+    transition-property: transform;
+}
+
+.trans-shadow {
+    transition-property: box-shadow;
+}
+
+.trans-75 {
+    transition-duration: .075s;
+}
+
+.trans-100 {
+    transition-duration: .1s;
+}
+
+.trans-150 {
+    transition-duration: .15s;
+}
+
+.trans-200 {
+    transition-duration: .2s;
+}
+
+.trans-300 {
+    transition-duration: .3s;
+}
+
+.trans-400 {
+    transition-duration: .4s;
+}
+
+.trans-500 {
+    transition-duration: .5s;
+}
+
+.trans-1000 {
+    transition-duration: 1s;
+}
+
+.trans-1500 {
+    transition-duration: 1.5s;
+}
+
+.trans-2000 {
+    transition-duration: 2s;
+}
