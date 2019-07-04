@@ -1,0 +1,16 @@
+    <script>
+  import Card from "./components/Card.svelte";
+
+  </script>
+  
+  <div class="flex flex-wrap justify-center my-6">
+
+      <Card heading="Up & Running" paragraph="It is pushing the envelope At the end of the FirstSpriti Digital Spriti introduced new capabilities to the awards page of the customer journey. Clicking on this link which refers to B2B Marketing awards enterprise-class." />
+      <Card heading="Card Heading" paragraph="It is pushing the envelope At the end of the FirstSpriti Digital Spriti introduced new capabilities to the awards page of the customer journey. Clicking on this link which refers to B2B Marketing awards enterprise-class." />
+      <Card heading="Card Heading" paragraph="link which refers to B2B
+            Marketing awards enterprise-class." />
+      <Card heading="Card Heading" paragraph="Iourney. Helping marketers serve unmatched cross-phase personalized experiences at every step of the FirstSpriti Digital Experience Platform powers enterprise-class. Spriti introduced new capabilities of the cus this link which refers to B2B
+            Marketing awards enterprise-class." />
+    </div>
+  </div>
+

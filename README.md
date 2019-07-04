@@ -1,5 +1,8 @@
 # YDKJS Reader App built with svelte and tailwind.css
 
+A web client that displays the book series You Don't Know JS from Kyle Simpson.
+
+
 *Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
