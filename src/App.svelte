@@ -51,16 +51,27 @@
 
     axios
       .all([folderContents, readme])
+      // TODO remove readme, because md file sorting is not done by pasring readme listings
+      // rather fixed table of contents is pretty much hardcoded
+      // generalize this function. Rename func: Remove and...File from function definition
       .then(function([folderContentsResponse, readmeResponse]) {
         const {
           imageFileNames,
           markdownFiles
         } = extractImageAndMarkDownFileNames(folderContentsResponse);
+
+        const sortedMarkdownFiles = sortMarkDownFilesByTableOfContents(
+          markdownFiles
+        );
         debugger;
       })
       .catch(function(error) {
         console.log(error);
       });
+  }
+
+  function buildFileRequestUrl(encodedBookName, filename) {
+    return RAW_REPO_BASE_URL + encodedBookName + "/" + filename;
   }
 
   function extractImageAndMarkDownFileNames(folderContentsResponse) {
@@ -83,8 +94,24 @@
     };
   }
 
-  function buildFileRequestUrl(encodedBookName, filename) {
-    return RAW_REPO_BASE_URL + encodedBookName + "/" + filename;
+  function sortMarkDownFilesByTableOfContents(markdownFiles) {
+    var tocFileNameOrder = ["readme", "toc", "foreword", "ch", "ap"];
+    const mdFilesSortedByToc = [];
+
+    tocFileNameOrder.forEach(searchFileName => {
+      mdFilesSortedByToc.push(
+        ...filterFilesByFileName(markdownFiles, searchFileName)
+      );
+    });
+
+    return mdFilesSortedByToc;
+  }
+
+  function filterFilesByFileName(markdownFiles, searchFileName) {
+    const temp = markdownFiles.filter(
+      fileName => fileName.indexOf(searchFileName) !== -1
+    );
+    return temp.sort(); // sort numbered files (nameINDEX.md)
   }
 </script>
 

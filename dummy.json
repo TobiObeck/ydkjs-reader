@@ -1,0 +1,290 @@
+[
+    {
+        "name": "README.md",
+        "path": "this & object prototypes/README.md",
+        "sha": "3a3f49e6f65b8cb94a27b270d297e6e722d98a92",
+        "size": 650,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/README.md?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/3a3f49e6f65b8cb94a27b270d297e6e722d98a92",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/README.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/README.md?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/3a3f49e6f65b8cb94a27b270d297e6e722d98a92",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md"
+        }
+    },
+    {
+        "name": "apA.md",
+        "path": "this & object prototypes/apA.md",
+        "sha": "63fca998ad299ae93fcae808f5af82d62d73e511",
+        "size": 13503,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/apA.md?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/apA.md",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/63fca998ad299ae93fcae808f5af82d62d73e511",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/apA.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/apA.md?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/63fca998ad299ae93fcae808f5af82d62d73e511",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/apA.md"
+        }
+    },
+    {
+        "name": "apB.md",
+        "path": "this & object prototypes/apB.md",
+        "sha": "d1fb9f95667145f1f1fcb39642bdeef481f4207a",
+        "size": 9605,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/apB.md?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/apB.md",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/d1fb9f95667145f1f1fcb39642bdeef481f4207a",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/apB.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/apB.md?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/d1fb9f95667145f1f1fcb39642bdeef481f4207a",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/apB.md"
+        }
+    },
+    {
+        "name": "ch1.md",
+        "path": "this & object prototypes/ch1.md",
+        "sha": "4bd18fb181c7cd26212492eefc4a125bcebb9c73",
+        "size": 13253,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/ch1.md?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch1.md",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/4bd18fb181c7cd26212492eefc4a125bcebb9c73",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/ch1.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/ch1.md?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/4bd18fb181c7cd26212492eefc4a125bcebb9c73",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch1.md"
+        }
+    },
+    {
+        "name": "ch2.md",
+        "path": "this & object prototypes/ch2.md",
+        "sha": "1039120b717f063b2bc41a4c891b9370e0250cab",
+        "size": 35427,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/ch2.md?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch2.md",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/1039120b717f063b2bc41a4c891b9370e0250cab",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/ch2.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/ch2.md?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/1039120b717f063b2bc41a4c891b9370e0250cab",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch2.md"
+        }
+    },
+    {
+        "name": "ch3.md",
+        "path": "this & object prototypes/ch3.md",
+        "sha": "8821d862efc588d84dbf824f171d2aceaefaf1fa",
+        "size": 46782,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/ch3.md?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch3.md",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/8821d862efc588d84dbf824f171d2aceaefaf1fa",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/ch3.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/ch3.md?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/8821d862efc588d84dbf824f171d2aceaefaf1fa",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch3.md"
+        }
+    },
+    {
+        "name": "ch4.md",
+        "path": "this & object prototypes/ch4.md",
+        "sha": "d3551e71e09c94fedf8768ceec72942913eb5102",
+        "size": 34638,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/ch4.md?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch4.md",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/d3551e71e09c94fedf8768ceec72942913eb5102",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/ch4.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/ch4.md?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/d3551e71e09c94fedf8768ceec72942913eb5102",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch4.md"
+        }
+    },
+    {
+        "name": "ch5.md",
+        "path": "this & object prototypes/ch5.md",
+        "sha": "e3ce91ef9907cc75e5d5fbc3c7612ea0d0d23cba",
+        "size": 49247,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/ch5.md?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch5.md",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/e3ce91ef9907cc75e5d5fbc3c7612ea0d0d23cba",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/ch5.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/ch5.md?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/e3ce91ef9907cc75e5d5fbc3c7612ea0d0d23cba",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch5.md"
+        }
+    },
+    {
+        "name": "ch6.md",
+        "path": "this & object prototypes/ch6.md",
+        "sha": "15965c7dbc7be3bb581c18689531bc025e2827b8",
+        "size": 48039,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/ch6.md?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/15965c7dbc7be3bb581c18689531bc025e2827b8",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/ch6.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/ch6.md?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/15965c7dbc7be3bb581c18689531bc025e2827b8",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/ch6.md"
+        }
+    },
+    {
+        "name": "cover.jpg",
+        "path": "this & object prototypes/cover.jpg",
+        "sha": "a9b9365b23c3e4da79da4c05120038c697490f06",
+        "size": 86253,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/cover.jpg?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/cover.jpg",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/a9b9365b23c3e4da79da4c05120038c697490f06",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/cover.jpg",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/cover.jpg?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/a9b9365b23c3e4da79da4c05120038c697490f06",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/cover.jpg"
+        }
+    },
+    {
+        "name": "fig1.png",
+        "path": "this & object prototypes/fig1.png",
+        "sha": "bc67e0c029d0748f9743ec0b30990b0a924becba",
+        "size": 6631,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/fig1.png?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/fig1.png",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/bc67e0c029d0748f9743ec0b30990b0a924becba",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/fig1.png",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/fig1.png?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/bc67e0c029d0748f9743ec0b30990b0a924becba",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/fig1.png"
+        }
+    },
+    {
+        "name": "fig2.png",
+        "path": "this & object prototypes/fig2.png",
+        "sha": "d5c6eed1375046ae5bc265b023e71f2f5225e094",
+        "size": 3226,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/fig2.png?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/fig2.png",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/d5c6eed1375046ae5bc265b023e71f2f5225e094",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/fig2.png",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/fig2.png?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/d5c6eed1375046ae5bc265b023e71f2f5225e094",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/fig2.png"
+        }
+    },
+    {
+        "name": "fig3.png",
+        "path": "this & object prototypes/fig3.png",
+        "sha": "836112c27d090c26646fdffaa8d238bedf28d1b1",
+        "size": 8049,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/fig3.png?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/fig3.png",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/836112c27d090c26646fdffaa8d238bedf28d1b1",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/fig3.png",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/fig3.png?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/836112c27d090c26646fdffaa8d238bedf28d1b1",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/fig3.png"
+        }
+    },
+    {
+        "name": "fig4.png",
+        "path": "this & object prototypes/fig4.png",
+        "sha": "b3c8907da508142f85efc6f7406544689e5450fd",
+        "size": 61789,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/fig4.png?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/fig4.png",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/b3c8907da508142f85efc6f7406544689e5450fd",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/fig4.png",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/fig4.png?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/b3c8907da508142f85efc6f7406544689e5450fd",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/fig4.png"
+        }
+    },
+    {
+        "name": "fig5.png",
+        "path": "this & object prototypes/fig5.png",
+        "sha": "6c3c1e50aaf2479911cdcc1395bdae406591820c",
+        "size": 41534,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/fig5.png?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/fig5.png",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/6c3c1e50aaf2479911cdcc1395bdae406591820c",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/fig5.png",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/fig5.png?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/6c3c1e50aaf2479911cdcc1395bdae406591820c",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/fig5.png"
+        }
+    },
+    {
+        "name": "fig6.png",
+        "path": "this & object prototypes/fig6.png",
+        "sha": "b6a3c1e0448ea70fd7d5c1ce201c54e314b0216b",
+        "size": 21321,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/fig6.png?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/fig6.png",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/b6a3c1e0448ea70fd7d5c1ce201c54e314b0216b",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/fig6.png",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/fig6.png?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/b6a3c1e0448ea70fd7d5c1ce201c54e314b0216b",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/fig6.png"
+        }
+    },
+    {
+        "name": "foreword.md",
+        "path": "this & object prototypes/foreword.md",
+        "sha": "edfa6c47d9d4e2f2537f1658cc0c8de432527ba5",
+        "size": 3566,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/foreword.md?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/foreword.md",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/edfa6c47d9d4e2f2537f1658cc0c8de432527ba5",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/foreword.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/foreword.md?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/edfa6c47d9d4e2f2537f1658cc0c8de432527ba5",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/foreword.md"
+        }
+    },
+    {
+        "name": "toc.md",
+        "path": "this & object prototypes/toc.md",
+        "sha": "f61d916ae76bbd73a52c33b3a7838775481a1068",
+        "size": 779,
+        "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/toc.md?ref=master",
+        "html_url": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/toc.md",
+        "git_url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/f61d916ae76bbd73a52c33b3a7838775481a1068",
+        "download_url": "https://raw.githubusercontent.com/getify/You-Dont-Know-JS/master/this%20%26%20object%20prototypes/toc.md",
+        "type": "file",
+        "_links": {
+            "self": "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/this%20&%20object%20prototypes/toc.md?ref=master",
+            "git": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/f61d916ae76bbd73a52c33b3a7838775481a1068",
+            "html": "https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/toc.md"
+        }
+    }
+]
