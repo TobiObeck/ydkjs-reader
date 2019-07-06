@@ -192,5 +192,5 @@
     </select>
   {/if}
 
-  <main id="content">asd</main>
+  <main id="content" class="markdown-body">asd</main>
 </div>
