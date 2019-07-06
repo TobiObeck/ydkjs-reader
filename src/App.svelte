@@ -9,72 +9,98 @@
     "https://api.github.com/repos/getify/You-Dont-Know-JS/contents/";
 
   const books = [
-    { name: "up & going" },
-    { name: "scope & closures" },
-    { name: "this & object prototypes" },
-    { name: "types & grammar" },
-    { name: "async & performance" },
-    { name: "es6 & beyond" }
+    {
+      name: "up & going",
+      mdFileNames: [],
+      imageFileNames: [],
+      mdFileNames: [],
+      imageFileNames: []
+    },
+    {
+      name: "scope & closures",
+      mdFileNames: [],
+      imageFileNames: []
+    },
+    {
+      name: "this & object prototypes",
+      mdFileNames: [],
+      imageFileNames: []
+    },
+    {
+      name: "types & grammar",
+      mdFileNames: [],
+      imageFileNames: []
+    },
+    {
+      name: "async & performance",
+      mdFileNames: [],
+      imageFileNames: []
+    },
+    {
+      name: "es6 & beyond",
+      mdFileNames: [],
+      imageFileNames: []
+    }
   ];
 
   let selectedBookName = ""; // books[0];
+  let selectedBookIndex = 0;
   let selectedChapter = "README.md";
 
-  var sortedMarkdownFiles = [];
-
-  function getBookContents() {
-    console.log("get");
-    axios.get(REPO_FILES_URL).then(response => {
-      console.log(response);
-    });
-  }
-
-  function bookSelectionChanged(selectEvent, kp) {
+  function onBookSelectionChanged(selectEvent) {
     selectBook(selectEvent);
-    requestBookFolderContentsAndReadmeFile();
+    requestBookFolderContentsOfSelectedBook();
   }
 
-  function selectBook(selectEvent) {
-    const selectedIndex = selectEvent.target.selectedIndex;
-    selectedBookName = books[selectedIndex].name;
-  }
+  function onChapterSelectionChanged(selectEvent) {}
 
-  function requestBookFolderContentsAndReadmeFile() {
-    const encodedBookName = encodeURIComponent(selectedBookName);
-
-    if (!encodedBookName) {
+  /*function requestMarkdownFile() {
+    
+    if (!selectedBookName) {
       return;
     }
-    const readmeUrl = buildFileRequestUrl(encodedBookName, selectedChapter);
-    const readme = axios.get(readmeUrl);
-    const folderContents = axios.get(REPO_FILES_URL + encodedBookName);
+
+    const encodedBookName = encodeURIComponent(selectedBookName);
+    const fileRequestUrl = buildFileRequestUrl(encodedBookName, selectedChapter);
+    const filePromise = axios.get(fileRequestUrl);
+  }*/
+
+  function selectBook(selectEvent) {
+    selectedBookIndex = selectEvent.target.selectedIndex;
+    selectedBookName = books[selectedBookIndex].name;
+  }
+
+  function requestBookFolderContentsOfSelectedBook() {
+    if (!selectedBookName) {
+      return;
+    }
+
+    const encodedBookName = encodeURIComponent(selectedBookName);
+    const folderContentsQuery = REPO_FILES_URL + encodedBookName;
 
     axios
-      .all([folderContents, readme])
-      // TODO remove readme, because md file sorting is not done by pasring readme listings
-      // rather fixed table of contents is pretty much hardcoded
-      // generalize this function. Rename func: Remove and...File from function definition
-      .then(function([folderContentsResponse, readmeResponse]) {
-        const {
-          imageFileNames,
-          markdownFiles
-        } = extractImageAndMarkDownFileNames(folderContentsResponse);
+      .get(folderContentsQuery)
+      .then(folderContentsResponse => {
+        const { imageFileNames, markdownFiles } = extractImageAndmdFileNames(
+          folderContentsResponse
+        );
 
         const sortedMarkdownFiles = sortMarkDownFilesByTableOfContents(
           markdownFiles
         );
-        debugger;
+
+        cacheImageAndSortedmdFileNames(imageFileNames, sortedMarkdownFiles);
       })
       .catch(function(error) {
         console.log(error);
       });
   }
 
-  function buildFileRequestUrl(encodedBookName, filename) {
-    return RAW_REPO_BASE_URL + encodedBookName + "/" + filename;
+  function buildFileRequestUrl(encodedBookName, chapterFilename) {
+    return RAW_REPO_BASE_URL + encodedBookName + "/" + chapterFilename;
   }
 
-  function extractImageAndMarkDownFileNames(folderContentsResponse) {
+  function extractImageAndmdFileNames(folderContentsResponse) {
     const imageFileNames = [];
     const markdownFiles = [];
     const data = folderContentsResponse.data;
@@ -107,6 +133,11 @@
     return mdFilesSortedByToc;
   }
 
+  function cacheImageAndSortedmdFileNames(imageFileNames, sortedMdFileNames) {
+    books[selectedBookIndex].imageFileNames = imageFileNames;
+    books[selectedBookIndex].mdFileNames = sortedMdFileNames;
+  }
+
   function filterFilesByFileName(markdownFiles, searchFileName) {
     const temp = markdownFiles.filter(
       fileName => fileName.indexOf(searchFileName) !== -1
@@ -120,14 +151,24 @@
 </style>
 
 <div>
+  <p class="text-xl">-> {selectedBookName}</p>
+
   <select
-    on:change={bookSelectionChanged}
-    id="selectbook"
+    on:change={onBookSelectionChanged}
     class="m-2 border-solid border-blue-200 border-2">
     {#each books as book}
       <option>{book.name}</option>
     {/each}
   </select>
   <br />
-   {selectedBookName}
+
+  {#if books[selectedBookIndex].mdFileNames.length}
+    <select
+      on:change={onChapterSelectionChanged}
+      class="m-2 border-solid border-blue-200 border-2">
+      {#each books[selectedBookIndex].mdFileNames as mdFileName}
+        <option>{mdFileName}</option>
+      {/each}
+    </select>
+  {/if}
 </div>
