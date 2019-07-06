@@ -45,25 +45,45 @@
 
   let selectedBookName = ""; // books[0];
   let selectedBookIndex = 0;
-  let selectedChapter = "README.md";
+  let selectedChapterFileName = "README.md";
+
+  function onChapterSelectionChanged(selectEvent) {
+    selectChapter(selectEvent);
+    requestMarkdownFile();
+  }
+
+  function selectChapter(selectEvent) {
+    const selectedChapterIndex = selectEvent.target.selectedIndex;
+    selectedChapterFileName =
+      books[selectedBookIndex].mdFileNames[selectedChapterIndex];
+  }
+
+  function requestMarkdownFile() {
+    if (!selectedChapterFileName) {
+      return;
+    }
+
+    const encodedBookName = encodeURIComponent(selectedBookName);
+    const fileRequestUrl = buildFileRequestUrl(
+      encodedBookName,
+      selectedChapterFileName
+    );
+    axios
+      .get(fileRequestUrl)
+      .then(chapterFileResponse => {
+        const html = marked(chapterFileResponse.data);
+        const contentElement = document.getElementById("content");
+        contentElement.innerHTML = html;
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+  }
 
   function onBookSelectionChanged(selectEvent) {
     selectBook(selectEvent);
     requestBookFolderContentsOfSelectedBook();
   }
-
-  function onChapterSelectionChanged(selectEvent) {}
-
-  /*function requestMarkdownFile() {
-    
-    if (!selectedBookName) {
-      return;
-    }
-
-    const encodedBookName = encodeURIComponent(selectedBookName);
-    const fileRequestUrl = buildFileRequestUrl(encodedBookName, selectedChapter);
-    const filePromise = axios.get(fileRequestUrl);
-  }*/
 
   function selectBook(selectEvent) {
     selectedBookIndex = selectEvent.target.selectedIndex;
@@ -171,4 +191,6 @@
       {/each}
     </select>
   {/if}
+
+  <main id="content">asd</main>
 </div>
